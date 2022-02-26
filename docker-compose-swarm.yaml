@@ -1,7 +1,7 @@
 version: "3.8"
 services:
     web:
-        image: hristopenchev/bgapp-web
+        image: hristopenchev/bgapp-web-nginx
         deploy:
             replicas: 5
         ports:
